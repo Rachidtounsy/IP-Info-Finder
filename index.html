@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IP Info Finder</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>IP Info Finder</h1>
+  <input type="text" id="ipInput" placeholder="Enter IP (e.g. 8.8.8.8)">
+  <button onclick="getIPInfo()">Search</button>
+
+  <div id="container">
+    <div id="infoTable"></div>
+    <div id="map"></div>
+  </div>
+
+  <footer>
+    &copy;  2025 WMN2 . Created by Rachid TOUNSY
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
